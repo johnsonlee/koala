@@ -1,4 +1,5 @@
 *.bin
+*.com
 *.o
 
 .*.swp
