@@ -1,0 +1,29 @@
+ Number  I   R   G   B   Monochrome     Color          Background  Foreground
+ ------ --- --- --- ---  ----------     -----          ----------  ----------
+   0     0   0   0   0   Black          Black            Sample      Sample 
+   1     0   0   0   1   Underlined     Blue             Sample      Sample 
+   2     0   0   1   0                  Green            Sample      Sample 
+   3     0   0   1   1                  Cyan             Sample      Sample 
+   4     0   1   0   0                  Red              Sample      Sample 
+   5     0   1   0   1                  Violet           Sample      Sample 
+   6     0   1   1   0                  Brown            Sample      Sample 
+   7     0   1   1   1   White          White            Sample      Sample 
+ 
+   8     1   0   0   0                  Grey             Sample      Sample 
+   9     1   0   0   1   Brt Underline  Bright Blue      Sample      Sample 
+   A     1   0   1   0                  Bright Green     Sample      Sample 
+   B     1   0   1   1                  Bright Cyan      Sample      Sample 
+   C     1   1   0   0                  Bright Red       Sample      Sample 
+   D     1   1   0   1                  Bright Violet    Sample      Sample 
+   E     1   1   1   0                  Yellow           Sample      Sample 
+   F     1   1   1   1   Bright White   Bright White     Sample      Sample 
+ 
+  --------------------------------------------------------------------------
+ 
+    Notes:  Background colors 8 through 15 are the same color as 0 through
+            7, but blinking rather than steady.
+ 
+            Character attributes contain both a foreground and a background
+            color, and are calculated as follows:
+ 
+                   attribute = 256 * background + foreground
